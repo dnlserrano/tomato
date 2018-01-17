@@ -16,6 +16,7 @@ defmodule Tomato.Client do
   end
 
   defp add_user_key(parameters) do
-    Map.put(parameters, :user_key, @user_key)
+    parameters
+    |> Map.put(:user_key, @user_key)
   end
 end
