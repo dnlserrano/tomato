@@ -4,9 +4,15 @@ defmodule Tomato.Client do
 
   def get(path, parameters \\ %{}) do
     %HTTPoison.Response{body: body} =
-      HTTPoison.get!(@base_uri <> path, add_user_key(parameters))
+      HTTPoison.get!(uri(path), add_user_key(parameters))
 
     Poison.decode!(body, keys: :atoms)
+  end
+
+  defp uri(path) do
+    @base_uri
+    |> URI.merge(path)
+    |> URI.to_string()
   end
 
   defp add_user_key(parameters) do
