@@ -26,10 +26,8 @@ defmodule Tomato do
   @doc """
   Get city details
   """
-  def cities(%Tomato.Queries.Cities{} = cities_query) do
-    params = query_to_params(cities_query)
-
-    with {:ok, response} <- Client.get("cities", params) do
+  def cities(query) do
+    with {:ok, response} <- Client.get("cities", query) do
       cities =
         response
         |> Map.get(:location_suggestions)
@@ -46,15 +44,14 @@ defmodule Tomato do
   @doc """
   Get collections in a city
   """
-  def collections(%Tomato.Queries.Collections{} = collections_query) do
-    params = query_to_params(collections_query)
-
-    with {:ok, response} <- Client.get("collections", params) do
+  def collections(query) do
+    with {:ok, response} <- Client.get("collections", query) do
       collections =
         response
         |> Map.get(:collections)
         |> Enum.map(fn(collection) ->
           struct(Tomato.Collection, collection[:collection])
+          |> struct(id: collection[:collection][:collection_id])
         end)
 
       {:ok, collections}
@@ -63,8 +60,42 @@ defmodule Tomato do
     end
   end
 
-  defp query_to_params(query) do
-    query
-    |> Map.from_struct
+  @doc """
+  Get list of all cuisines in a city
+  """
+  def cuisines(query) do
+    with {:ok, response} <- Client.get("cuisines", query) do
+      cuisines =
+        response
+        |> Map.get(:cuisines)
+        |> Enum.map(fn(%{cuisine: cuisine}) ->
+          struct(Tomato.Cuisine, %{
+            id: cuisine[:cuisine_id],
+            name: cuisine[:cuisine_name]
+          })
+        end)
+
+      {:ok, cuisines}
+    else
+      error -> error
+    end
+  end
+
+  @doc """
+  Get list of restaurant types in a city
+  """
+  def establishments(query) do
+    with {:ok, response} <- Client.get("establishments", query) do
+      establishments =
+        response
+        |> Map.get(:establishments)
+        |> Enum.map(fn(establishment) ->
+          struct(Tomato.Establishment, establishment[:establishment])
+        end)
+
+      {:ok, establishments}
+    else
+      error -> error
+    end
   end
 end
