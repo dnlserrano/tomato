@@ -98,4 +98,32 @@ defmodule Tomato do
       error -> error
     end
   end
+
+  @doc """
+  Get location details based on coordinates
+  """
+  def geocode(lat, long) do
+    query = %{lat: lat, long: long}
+
+    with {:ok, response} <- Client.get("geocode", query) do
+      geo_info = response
+      {:ok, geo_info}
+    else
+      error -> error
+    end
+  end
+
+  @doc """
+  Get restaurant details
+  """
+  def restaurant(id) do
+    query = %{res_id: id}
+
+    with {:ok, response} <- Client.get("restaurant", query) do
+      restaurant = response
+      {:ok, restaurant}
+    else
+      error -> error
+    end
+  end
 end
