@@ -120,10 +120,35 @@ defmodule Tomato do
     query = %{res_id: id}
 
     with {:ok, response} <- Client.get("restaurant", query) do
-      restaurant = response
+      restaurant = map_restaurant(response)
       {:ok, restaurant}
     else
       error -> error
     end
+  end
+
+  defp map_restaurant(restaurant_info) do
+    location = map_location(restaurant_info)
+    user_rating = map_user_rating(restaurant_info)
+
+    restaurant = struct(Tomato.Restaurant, restaurant_info)
+    restaurant = struct(Tomato.Restaurant, %{
+      location: location,
+      user_rating: user_rating,
+    })
+
+    restaurant
+  end
+
+  defp map_location(restaurant_info) do
+    struct(Tomato.Location, restaurant_info[:location])
+  end
+
+  defp map_user_rating(restaurant_info) do
+    struct(Tomato.Rating, restaurant_info[:user_rating])
+  end
+
+  defp map_user(user) do
+    struct(Tomato.User, user)
   end
 end
