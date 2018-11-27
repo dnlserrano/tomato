@@ -127,15 +127,33 @@ defmodule Tomato do
     end
   end
 
+  @doc """
+  Get restaurants matching given search criteria
+  """
+  def search(query) do
+    with {:ok, response} <- Client.get("search", query) do
+      restaurants =
+        response
+        |> Map.get(:restaurants)
+        |> Enum.map(fn(restaurant) ->
+          map_restaurant(restaurant[:restaurant])
+        end)
+
+      {:ok, restaurants}
+    else
+      error -> error
+    end
+  end
+
   defp map_restaurant(restaurant_info) do
     location = map_location(restaurant_info)
     user_rating = map_user_rating(restaurant_info)
 
     restaurant = struct(Tomato.Restaurant, restaurant_info)
-    restaurant = struct(Tomato.Restaurant, %{
+    restaurant = %{restaurant |
       location: location,
       user_rating: user_rating,
-    })
+    }
 
     restaurant
   end
