@@ -165,8 +165,4 @@ defmodule Tomato do
   defp map_user_rating(restaurant_info) do
     struct(Tomato.Rating, restaurant_info[:user_rating])
   end
-
-  defp map_user(user) do
-    struct(Tomato.User, user)
-  end
 end
