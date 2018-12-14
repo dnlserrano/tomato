@@ -1,4 +1,7 @@
 defmodule Tomato.Client do
+  @callback get(String.t) :: {:ok, map} | {:error, map}
+  @callback get(String.t, map) :: {:ok, map} | {:error, map}
+
   def get(path, parameters \\ %{}) do
     {:ok, %HTTPoison.Response{status_code: status_code, body: body}} =
       HTTPoison.get(uri(path), headers(), options(parameters))

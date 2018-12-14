@@ -3,13 +3,13 @@ defmodule Tomato do
   Documentation for Tomato.
   """
 
-  alias Tomato.Client
+  @client Application.get_env(:tomato, :client)
 
   @doc """
   Get list of categories
   """
   def categories do
-    with {:ok, response} <- Client.get("categories") do
+    with {:ok, response} <- @client.get("categories") do
       categories =
         response
         |> Map.get(:categories)
@@ -19,7 +19,7 @@ defmodule Tomato do
 
       {:ok, categories}
     else
-      error -> error
+      error -> {:error, error}
     end
   end
 
@@ -27,7 +27,7 @@ defmodule Tomato do
   Get city details
   """
   def cities(query) do
-    with {:ok, response} <- Client.get("cities", query) do
+    with {:ok, response} <- @client.get("cities", query) do
       cities =
         response
         |> Map.get(:location_suggestions)
@@ -45,7 +45,7 @@ defmodule Tomato do
   Get collections in a city
   """
   def collections(query) do
-    with {:ok, response} <- Client.get("collections", query) do
+    with {:ok, response} <- @client.get("collections", query) do
       collections =
         response
         |> Map.get(:collections)
@@ -64,7 +64,7 @@ defmodule Tomato do
   Get list of all cuisines in a city
   """
   def cuisines(query) do
-    with {:ok, response} <- Client.get("cuisines", query) do
+    with {:ok, response} <- @client.get("cuisines", query) do
       cuisines =
         response
         |> Map.get(:cuisines)
@@ -85,7 +85,7 @@ defmodule Tomato do
   Get list of restaurant types in a city
   """
   def establishments(query) do
-    with {:ok, response} <- Client.get("establishments", query) do
+    with {:ok, response} <- @client.get("establishments", query) do
       establishments =
         response
         |> Map.get(:establishments)
@@ -105,7 +105,7 @@ defmodule Tomato do
   def geocode(lat, long) do
     query = %{lat: lat, long: long}
 
-    with {:ok, response} <- Client.get("geocode", query) do
+    with {:ok, response} <- @client.get("geocode", query) do
       geo_info = response
       {:ok, geo_info}
     else
@@ -119,7 +119,7 @@ defmodule Tomato do
   def restaurant(id) do
     query = %{res_id: id}
 
-    with {:ok, response} <- Client.get("restaurant", query) do
+    with {:ok, response} <- @client.get("restaurant", query) do
       restaurant = map_restaurant(response)
       {:ok, restaurant}
     else
@@ -131,7 +131,7 @@ defmodule Tomato do
   Get restaurants matching given search criteria
   """
   def search(query) do
-    with {:ok, response} <- Client.get("search", query) do
+    with {:ok, response} <- @client.get("search", query) do
       restaurants =
         response
         |> Map.get(:restaurants)
