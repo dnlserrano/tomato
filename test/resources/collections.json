@@ -1,0 +1,459 @@
+{
+  "collections": [
+    {
+      "collection": {
+        "collection_id": 1,
+        "res_count": 30,
+        "image_url": "https://b.zmtcdn.com/data/collections/89c3983ab984313977e87eecee9bfe8a_1517409815.jpeg",
+        "url": "https://www.zomato.com/grande-lisboa/top-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Trending This Week",
+        "description": "The most popular restaurants in town this week",
+        "share_url": "http://www.zoma.to/c-82/1"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 29,
+        "res_count": 28,
+        "image_url": "https://b.zmtcdn.com/data/collections/957133b8ebf50487c00cbadea54d6461_1516725996.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/best-new-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Newly Opened",
+        "description": "The best new places in town",
+        "share_url": "http://www.zoma.to/c-82/29"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 291012,
+        "res_count": 20,
+        "image_url": "https://b.zmtcdn.com/data/collections/a20e6c2a8eabd6fee814ac74b9fa1969_1540988279.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/christmas-specials-2018?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Christmas Specials 2018",
+        "description": "Celebrate this festive season with some great Christmas specials ",
+        "share_url": "http://www.zoma.to/c-82/291012"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 291011,
+        "res_count": 9,
+        "image_url": "https://b.zmtcdn.com/data/collections/c319acec3d76bd0f74d8b76cfd7dccc2_1540988383.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/new-year-eve-2018?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "New Year's Eve",
+        "description": "The best places to have the best New Year's Eve Celebration!",
+        "share_url": "http://www.zoma.to/c-82/291011"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 291032,
+        "res_count": 14,
+        "image_url": "https://b.zmtcdn.com/data/collections/b41230588f2ab2963e2124bf2631fcdf_1540923211.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/experiencias-de-cafe-by-nescafe?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Experiências de Café by NESCAFÉ",
+        "description": "Embarque numa degustação surpreendente de novas experiências de café!",
+        "share_url": "http://www.zoma.to/c-82/291032"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 285301,
+        "res_count": 46,
+        "image_url": "https://b.zmtcdn.com/data/collections/ab1bf598c294594dd98c420cf286e18f_1531380787.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/zomato-gold-drinks?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Zomato Gold on drinks",
+        "description": "Browse the best bars to get 2 + 2 on drinks at top rated restaurants and bars with Zomato Gold",
+        "share_url": "http://www.zoma.to/c-82/285301"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 290568,
+        "res_count": 11,
+        "image_url": "https://b.zmtcdn.com/data/collections/15b584050d5c2fddb252da451b6cabf0_1539849595.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/martini-lovers?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Martini Lovers",
+        "description": "Uma coleção onde sugerimos os melhores espaços para os verdadeiros apreciadores de Martini.",
+        "share_url": "http://www.zoma.to/c-82/290568"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 284158,
+        "res_count": 63,
+        "image_url": "https://b.zmtcdn.com/data/collections/426d450186eed73bd0331a581cd4a635_1542471638.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/bohemia-beer-pairing-experiences?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Beer pairing experiences",
+        "description": "Find out the whole experience at www.mesasbohemia.pt",
+        "share_url": "http://www.zoma.to/c-82/284158"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 274852,
+        "res_count": 185,
+        "image_url": "https://b.zmtcdn.com/data/collections/5ac5eeae0796f422298ee67d5b66a025_1535368421.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/great-food-no-bull?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Great Food, No Bull",
+        "description": "The hunt for the highest-rated restaurants in your city ends here",
+        "share_url": "http://www.zoma.to/c-82/274852"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 125,
+        "res_count": 59,
+        "image_url": "https://b.zmtcdn.com/data/collections/c6dd10e240506637b092e08e67c93ca7_1506604002.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/weekend-brunch?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Weekend Brunches",
+        "description": "Sit back, enjoy a wide spread and forget that a new work week is sneaking up on you",
+        "share_url": "http://www.zoma.to/c-82/125"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 288473,
+        "res_count": 23,
+        "image_url": "https://b.zmtcdn.com/data/collections/d9f35c014a795a06de3af58acad9c088_1536657862.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/accessible-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Accessible Restaurants",
+        "description": "Find out the restaurants that are wheelchair friendly! ",
+        "share_url": "http://www.zoma.to/c-82/288473"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 115,
+        "res_count": 17,
+        "image_url": "https://b.zmtcdn.com/data/collections/211213cef91b89b109cf50d0c1b69ab0_1418393243_l.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/fado?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Fado",
+        "description": "The most authentic Fado places in the city.",
+        "share_url": "http://www.zoma.to/c-82/115"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 239,
+        "res_count": 26,
+        "image_url": "https://b.zmtcdn.com/data/collections/323045cf1dffa210ddfbad3d936b887a_1517394326.jpeg",
+        "url": "https://www.zomato.com/grande-lisboa/best-hot-chocolate?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Hot chocolate spots",
+        "description": "Warm up with the hottest, creamiest, yummiest hot chocolate you can find.",
+        "share_url": "http://www.zoma.to/c-82/239"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 344,
+        "res_count": 75,
+        "image_url": "https://b.zmtcdn.com/data/collections/243eb94ee12c8782ddd694ead4eef254_1506602475.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/delivery-only-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Entregas ao Domicílio",
+        "description": "Get your grub right at your doorstep",
+        "share_url": "http://www.zoma.to/c-82/344"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 226,
+        "res_count": 16,
+        "image_url": "https://b.zmtcdn.com/data/collections/979cdb510dd79262b6b7391708b64550_1431437425_l.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/restaurants-with-fireplace?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "By the fire",
+        "description": "Enjoy a great meal beside a roaring fire to escape the chill",
+        "share_url": "http://www.zoma.to/c-82/226"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 114,
+        "res_count": 65,
+        "image_url": "https://b.zmtcdn.com/data/collections/b849bc054019f57322b0fedf4df7c329_1475060264.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/petiscos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Petiscos",
+        "description": "Because deliciousness should be shared!",
+        "share_url": "http://www.zoma.to/c-82/114"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 30,
+        "res_count": 22,
+        "image_url": "https://b.zmtcdn.com/data/collections/c3bd03fd4692183e703b5794681ca0c5_1471944801.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/child-friendly-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Child friendly",
+        "description": "Perfect places for dining with the entire family",
+        "share_url": "http://www.zoma.to/c-82/30"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 19,
+        "res_count": 51,
+        "image_url": "https://b.zmtcdn.com/data/collections/1117c2f928e8da2f70d3c69c488515c8_1516728749.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/vegetarian-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Veggie Friendly",
+        "description": "Restaurants serving the best vegetarian fare",
+        "share_url": "http://www.zoma.to/c-82/19"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 278451,
+        "res_count": 31,
+        "image_url": "https://b.zmtcdn.com/data/collections/7f915e79c8f80f0c3b1ab489276e0205_1518176480.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/restaurantes-pet-friendly?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Pet friendly ",
+        "description": "Find the best restaurants in town where your pet is welcome!",
+        "share_url": "http://www.zoma.to/c-82/278451"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 65,
+        "res_count": 64,
+        "image_url": "https://b.zmtcdn.com/data/collections/4d8ff8eeeccfb0dcbf0157759d1e86e1_1506602238.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/sushi?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Super Sushi",
+        "description": "Classic maki-style rolls, sashimi or nigiri sushi, hit up these spots for your favourite Japanese snack ",
+        "share_url": "http://www.zoma.to/c-82/65"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 785,
+        "res_count": 84,
+        "image_url": "https://b.zmtcdn.com/data/collections/7183c11319d00056c26c32c3b115f7b0_1445425886_l.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/group-dinners?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Group dinners",
+        "description": "It's more fun with friends",
+        "share_url": "http://www.zoma.to/c-82/785"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 157157,
+        "res_count": 53,
+        "image_url": "https://b.zmtcdn.com/data/collections/721932d066e2d4d1ce8d70dec4797a6b_1470670638.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/best-italian-restaurants-lisbon?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Top Italian restaurants in Lisbon",
+        "description": "Find the best places for a pizza, pasta and other Italian dishes",
+        "share_url": "http://www.zoma.to/c-82/157157"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 47,
+        "res_count": 50,
+        "image_url": "https://b.zmtcdn.com/data/collections/25c5f1b5770669e57362c08154e92090_1438661776_l.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/steakhouses?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Steakhouses",
+        "description": "Medium-rare? Well-done? Steak your pick.",
+        "share_url": "http://www.zoma.to/c-82/47"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 56192,
+        "res_count": 39,
+        "image_url": "https://b.zmtcdn.com/data/collections/5cb1488172380939558feca2f00715dc_1483447146.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/book-a-table-online-zomato?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Book a table online on Zomato",
+        "description": "Never wait for a table again. Save your spot with Zomato Book",
+        "share_url": "http://www.zoma.to/c-82/56192"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 434,
+        "res_count": 47,
+        "image_url": "https://b.zmtcdn.com/data/collections/041631ec5b9cec501d7d7230bd2c90a0_1474468955.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/best-cheap-eats?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Cheap eats",
+        "description": "Fill up your tummy without emptying your pockets",
+        "share_url": "http://www.zoma.to/c-82/434"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 157073,
+        "res_count": 48,
+        "image_url": "https://b.zmtcdn.com/data/collections/fa76f0ada96ffa4f3226b6b583c0f827_1470658453.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/iconic-places-in-lisbon?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Iconic places in Lisbon",
+        "description": "Find the must-try places in a trip to Lisbon",
+        "share_url": "http://www.zoma.to/c-82/157073"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 3,
+        "res_count": 40,
+        "image_url": "https://b.zmtcdn.com/data/collections/dd1525c5e9ddd86a08dc6d881083ed55_1536735953.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/romantic-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Romantic",
+        "description": "The perfect spots for a romantic meal",
+        "share_url": "http://www.zoma.to/c-82/3"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 321,
+        "res_count": 75,
+        "image_url": "https://b.zmtcdn.com/data/collections/f672e9556e44fe33ff47bf751639c0bd_1535356450.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/pizza-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Pizza Time",
+        "description": "Meaty, cheesy, indulgent & delicious. It's just about the perfect food",
+        "share_url": "http://www.zoma.to/c-82/321"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 8,
+        "res_count": 49,
+        "image_url": "https://b.zmtcdn.com/data/collections/52d2ea4a19bee4d876e42d14574b2508_1427378290_l.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/hidden-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Hidden Gems",
+        "description": "The definitive list of hidden gems you need to try",
+        "share_url": "http://www.zoma.to/c-82/8"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 81,
+        "res_count": 47,
+        "image_url": "https://b.zmtcdn.com/data/collections/148f06fa52fba0d8774742a60bd9975e_1517336587.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/Indian-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Best Indian restaurants",
+        "description": "Experience the incredible burst of Indian flavours with Butter Chicken, Biryani, Dal Makhani, Gulab Jamun and other Indian delicacies at these spots",
+        "share_url": "http://www.zoma.to/c-82/81"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 271450,
+        "res_count": 49,
+        "image_url": "https://b.zmtcdn.com/data/collections/e610f17cc80bb17db8f29566b8c47a77_1501777978.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/asian-flavors?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Asian flavors",
+        "description": "The best asian restaurants in town",
+        "share_url": "http://www.zoma.to/c-82/271450"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 269279,
+        "res_count": 34,
+        "image_url": "https://b.zmtcdn.com/data/collections/def60177453e43a8b2630ee827b60162_1530610730.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/zomato-gold-premium-select?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Gold Premium Select",
+        "description": "Pamper yourself at premium and top-rated restaurants from the Zomato Gold stable!",
+        "share_url": "http://www.zoma.to/c-82/269279"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 82447,
+        "res_count": 48,
+        "image_url": "https://b.zmtcdn.com/data/collections/b080cc9d056ac44c969fe4862d3838b2_1457963851.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/business-menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Business Lunch",
+        "description": "When you need to discuss something more important than just the latest gossip",
+        "share_url": "http://www.zoma.to/c-82/82447"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 48,
+        "res_count": 43,
+        "image_url": "https://b.zmtcdn.com/data/collections/3348431bcaa616e6cd3ccadc95ceca63_1427263670_l.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/seafood?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Super Seafood",
+        "description": "The best seafood places in town",
+        "share_url": "http://www.zoma.to/c-82/48"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 5,
+        "res_count": 36,
+        "image_url": "https://b.zmtcdn.com/data/collections/908544d169e65b181b0e7613e5529532_1480433983.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/best-burger?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Kickass Burgers",
+        "description": "Find the nearest burger spots acing the B-game ",
+        "share_url": "http://www.zoma.to/c-82/5"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 327,
+        "res_count": 36,
+        "image_url": "https://b.zmtcdn.com/data/collections/9333d03b71679e82dbf359dc76fd7168_1433399050_l.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/family-dining?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "For the family",
+        "description": "The best places to enjoy a nice family dinner",
+        "share_url": "http://www.zoma.to/c-82/327"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 75,
+        "res_count": 40,
+        "image_url": "https://b.zmtcdn.com/data/collections/f479489688ba0f2e0bc0e2f1c6fc8123_1506602701.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/best-bars-and-pubs?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Best Bars & Pubs",
+        "description": "The top places to enjoy a drink",
+        "share_url": "http://www.zoma.to/c-82/75"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 6,
+        "res_count": 32,
+        "image_url": "https://b.zmtcdn.com/data/collections/33ebdc279ce63a293c52095b1facf611_1539323119.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/late-night-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Late Night Restaurants",
+        "description": "Banish those midnight cravings with our handy list of late night & 24-hour restaurants serving all your favourite comfort foods",
+        "share_url": "http://www.zoma.to/c-82/6"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 16,
+        "res_count": 37,
+        "image_url": "https://b.zmtcdn.com/data/collections/f35008b07387dad450d428e60bf96196_1438667290_l.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/celebrity-chef-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Celebrity chefs",
+        "description": "Savor the creations of the masters",
+        "share_url": "http://www.zoma.to/c-82/16"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 277744,
+        "res_count": 34,
+        "image_url": "https://b.zmtcdn.com/data/collections/d3dac2f797ed3210a89e90acabf3ad6a_1530612131.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/popular-gold-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Popular Gold Restaurants",
+        "description": "Explore the most popular Zomato Gold partner restaurants",
+        "share_url": "http://www.zoma.to/c-82/277744"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 289583,
+        "res_count": 23,
+        "image_url": "https://b.zmtcdn.com/data/collections/b7555eb1e0e5bb7dc7e26ef6b893651f_1538046592.jpg",
+        "url": "https://www.zomato.com/grande-lisboa/sneak-peek?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Sneak Peek",
+        "description": "Know the HOW behind the WOW!",
+        "share_url": "http://www.zoma.to/c-82/289583"
+      }
+    }
+  ],
+  "has_more": 0,
+  "share_url": "http://www.zoma.to/c-82",
+  "display_text": "OR EXPLORE OUR COLLECTIONS",
+  "has_total": 0
+}

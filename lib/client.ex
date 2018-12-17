@@ -7,8 +7,8 @@ defmodule Tomato.Client do
       HTTPoison.get(uri(path), headers(), options(parameters))
 
     case status_code < 300 do
-      true -> {:ok, Poison.decode!(body, keys: :atoms)}
-      false -> {:error, Poison.decode!(body, keys: :atoms)}
+      true -> {:ok, Poison.decode!(body)}
+      false -> {:error, Poison.decode!(body)}
     end
   end
 

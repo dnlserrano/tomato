@@ -1,0 +1,130 @@
+{
+  "establishments": [
+    {
+      "establishment": {
+        "id": 241,
+        "name": "Snack Bar"
+      }
+    },
+    {
+      "establishment": {
+        "id": 16,
+        "name": "Casual Dining"
+      }
+    },
+    {
+      "establishment": {
+        "id": 278,
+        "name": "Wine Bar"
+      }
+    },
+    {
+      "establishment": {
+        "id": 21,
+        "name": "Quick Bites"
+      }
+    },
+    {
+      "establishment": {
+        "id": 18,
+        "name": "Fine Dining"
+      }
+    },
+    {
+      "establishment": {
+        "id": 251,
+        "name": "Pastry Shop"
+      }
+    },
+    {
+      "establishment": {
+        "id": 4,
+        "name": "Kiosk"
+      }
+    },
+    {
+      "establishment": {
+        "id": 1,
+        "name": "Café"
+      }
+    },
+    {
+      "establishment": {
+        "id": 7,
+        "name": "Bar"
+      }
+    },
+    {
+      "establishment": {
+        "id": 261,
+        "name": "Ice Cream Shop"
+      }
+    },
+    {
+      "establishment": {
+        "id": 23,
+        "name": "Dessert Parlour"
+      }
+    },
+    {
+      "establishment": {
+        "id": 5,
+        "name": "Lounge"
+      }
+    },
+    {
+      "establishment": {
+        "id": 31,
+        "name": "Bakery"
+      }
+    },
+    {
+      "establishment": {
+        "id": 272,
+        "name": "Cocktail Bar"
+      }
+    },
+    {
+      "establishment": {
+        "id": 20,
+        "name": "Food Court"
+      }
+    },
+    {
+      "establishment": {
+        "id": 8,
+        "name": "Club"
+      }
+    },
+    {
+      "establishment": {
+        "id": 6,
+        "name": "Pub"
+      }
+    },
+    {
+      "establishment": {
+        "id": 111,
+        "name": "Tea Room"
+      }
+    },
+    {
+      "establishment": {
+        "id": 293,
+        "name": "Shack"
+      }
+    },
+    {
+      "establishment": {
+        "id": 81,
+        "name": "Food Truck"
+      }
+    },
+    {
+      "establishment": {
+        "id": 292,
+        "name": "Beer Garden"
+      }
+    }
+  ]
+}

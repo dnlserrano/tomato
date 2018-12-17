@@ -1,0 +1,505 @@
+{
+  "location": {
+    "entity_type": "subzone",
+    "entity_id": 82041,
+    "title": "Saldanha",
+    "latitude": "38.7337710000",
+    "longitude": "-9.1448500000",
+    "city_id": 82,
+    "city_name": "Greater Lisbon",
+    "country_id": 164,
+    "country_name": "Portugal"
+  },
+  "popularity": {
+    "popularity": "4.97",
+    "nightlife_index": "4.98",
+    "nearby_res": [
+      "8209637",
+      "8202270",
+      "18335531",
+      "18481067",
+      "8214057",
+      "8201625",
+      "8212807",
+      "18413910",
+      "18463064"
+    ],
+    "top_cuisines": [
+      "Portuguese",
+      "Finger Food",
+      "Cafe",
+      "Petiscos",
+      "Beverages"
+    ],
+    "popularity_res": "100",
+    "nightlife_res": "10",
+    "subzone": "Areeiro",
+    "subzone_id": 169389,
+    "city": "Greater Lisbon"
+  },
+  "link": "https://www.zomato.com/grande-lisboa/saldanha-restaurants",
+  "nearby_restaurants": [
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 8209637
+        },
+        "apikey": "fdfccb1ed8478759936aaf2ea5718529",
+        "id": "8209637",
+        "name": "Choupana Caffé",
+        "url": "https://www.zomato.com/grande-lisboa/choupana-caffé-saldanha-lisboa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Avenida da República, 25A, Saldanha, Lisboa",
+          "locality": "Saldanha",
+          "city": "Lisboa",
+          "city_id": 82,
+          "latitude": "38.7363309575",
+          "longitude": "-9.1457671300",
+          "zipcode": "",
+          "country_id": 164,
+          "locality_verbose": "Saldanha, Lisboa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Cafe, Bakery, Finger Food, Mediterranean, Desserts",
+        "average_cost_for_two": 15,
+        "price_range": 2,
+        "currency": "€",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/8209637_RESTAURANT_8c5537b9389ad26b6650728a9a65d032.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.3",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "3948"
+        },
+        "photos_url": "https://www.zomato.com/grande-lisboa/choupana-caffé-saldanha-lisboa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/grande-lisboa/choupana-caffé-saldanha-lisboa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/8209637_RESTAURANT_8c5537b9389ad26b6650728a9a65d032.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/8209637",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/grande-lisboa/choupana-caffé-saldanha-lisboa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 8202270
+        },
+        "apikey": "fdfccb1ed8478759936aaf2ea5718529",
+        "id": "8202270",
+        "name": "Italy - Lisbona Caffé",
+        "url": "https://www.zomato.com/grande-lisboa/italy-lisbona-caffé-saldanha-lisboa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Avenida Duque de Ávila, 26B R/C, Saldanha, Lisboa",
+          "locality": "Saldanha",
+          "city": "Lisboa",
+          "city_id": 82,
+          "latitude": "38.7350682954",
+          "longitude": "-9.1440713033",
+          "zipcode": "",
+          "country_id": 164,
+          "locality_verbose": "Saldanha, Lisboa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Italian, Pizza",
+        "average_cost_for_two": 35,
+        "price_range": 3,
+        "currency": "€",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/8202270_RESTAURANT_463f4b202930140f622061f6e6226865.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.5",
+          "rating_text": "Excellent",
+          "rating_color": "3F7E00",
+          "votes": "1543"
+        },
+        "photos_url": "https://www.zomato.com/grande-lisboa/italy-lisbona-caffé-saldanha-lisboa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/grande-lisboa/italy-lisbona-caffé-saldanha-lisboa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/8202270_RESTAURANT_463f4b202930140f622061f6e6226865.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/8202270",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/grande-lisboa/italy-lisbona-caffé-saldanha-lisboa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 18335531
+        },
+        "apikey": "fdfccb1ed8478759936aaf2ea5718529",
+        "id": "18335531",
+        "name": "Nómada",
+        "url": "https://www.zomato.com/grande-lisboa/nómada-campo-pequeno-lisboa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Avenida Visconde Valmor, 40A, Campo Pequeno, Lisboa 1050 240",
+          "locality": "Campo Pequeno",
+          "city": "Lisboa",
+          "city_id": 82,
+          "latitude": "38.7380622433",
+          "longitude": "-9.1475984082",
+          "zipcode": "1050 240",
+          "country_id": 164,
+          "locality_verbose": "Campo Pequeno, Lisboa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Sushi, Contemporary",
+        "average_cost_for_two": 60,
+        "price_range": 4,
+        "currency": "€",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 1,
+        "mezzo_provider": "ZOMATO_BOOK",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "thumb": "https://b.zmtcdn.com/data/pictures/chains/1/18335531/49d2943e8006565411fa05078b34de3d.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.9",
+          "rating_text": "Excellent",
+          "rating_color": "3F7E00",
+          "votes": "999"
+        },
+        "photos_url": "https://www.zomato.com/grande-lisboa/nómada-campo-pequeno-lisboa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/grande-lisboa/nómada-campo-pequeno-lisboa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/pictures/chains/1/18335531/49d2943e8006565411fa05078b34de3d.jpg",
+        "medio_provider": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/18335531",
+        "is_table_reservation_supported": 1,
+        "has_table_booking": 1,
+        "book_url": "https://www.zomato.com/grande-lisboa/nómada-campo-pequeno-lisboa/book?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "events_url": "https://www.zomato.com/grande-lisboa/nómada-campo-pequeno-lisboa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 18481067
+        },
+        "apikey": "fdfccb1ed8478759936aaf2ea5718529",
+        "id": "18481067",
+        "name": "Tasca Fit",
+        "url": "https://www.zomato.com/grande-lisboa/tasca-fit-saldanha-lisboa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Fitness Hut Arco do Cego, Rua Visconde de Santarém, 69, Saldanha, Lisboa 1000-286",
+          "locality": "Saldanha",
+          "city": "Lisboa",
+          "city_id": 82,
+          "latitude": "38.7347868871",
+          "longitude": "-9.1395836324",
+          "zipcode": "1000-286",
+          "country_id": 164,
+          "locality_verbose": "Saldanha, Lisboa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Healthy Food, Portuguese, Petiscos",
+        "average_cost_for_two": 15,
+        "price_range": 2,
+        "currency": "€",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 1,
+        "mezzo_provider": "ZOMATO_BOOK",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "thumb": "https://b.zmtcdn.com/data/pictures/chains/7/18481067/54bda29884811bb15792519b9702dea5.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.2",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "537"
+        },
+        "photos_url": "https://www.zomato.com/grande-lisboa/tasca-fit-saldanha-lisboa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/grande-lisboa/tasca-fit-saldanha-lisboa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/pictures/chains/7/18481067/54bda29884811bb15792519b9702dea5.jpg",
+        "medio_provider": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/18481067",
+        "is_table_reservation_supported": 1,
+        "has_table_booking": 1,
+        "book_url": "https://www.zomato.com/grande-lisboa/tasca-fit-saldanha-lisboa/book?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "events_url": "https://www.zomato.com/grande-lisboa/tasca-fit-saldanha-lisboa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 8214057
+        },
+        "apikey": "fdfccb1ed8478759936aaf2ea5718529",
+        "id": "8214057",
+        "name": "Mesa do Bairro",
+        "url": "https://www.zomato.com/grande-lisboa/mesa-do-bairro-areeiro-lisboa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Rua Reis Gomes, Areeiro, Lisboa 1000-259",
+          "locality": "Areeiro",
+          "city": "Lisboa",
+          "city_id": 82,
+          "latitude": "38.7400466323",
+          "longitude": "-9.1418869793",
+          "zipcode": "1000-259",
+          "country_id": 164,
+          "locality_verbose": "Areeiro, Lisboa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Portuguese, Author, Petiscos",
+        "average_cost_for_two": 40,
+        "price_range": 4,
+        "currency": "€",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/8214057_RESTAURANT_94e9159399b7424b7fa9dbddb50af1a0.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.5",
+          "rating_text": "Excelente",
+          "rating_color": "3F7E00",
+          "votes": "555"
+        },
+        "photos_url": "https://www.zomato.com/grande-lisboa/mesa-do-bairro-areeiro-lisboa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/grande-lisboa/mesa-do-bairro-areeiro-lisboa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/8214057_RESTAURANT_94e9159399b7424b7fa9dbddb50af1a0.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/8214057",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/grande-lisboa/mesa-do-bairro-areeiro-lisboa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 8201625
+        },
+        "apikey": "fdfccb1ed8478759936aaf2ea5718529",
+        "id": "8201625",
+        "name": "Fábrica dos Sabores",
+        "url": "https://www.zomato.com/grande-lisboa/fábrica-dos-sabores-saldanha-lisboa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Avenida Defensores de Chaves, 55 1000-112 L",
+          "locality": "Saldanha",
+          "city": "Lisboa",
+          "city_id": 82,
+          "latitude": "38.7371212868",
+          "longitude": "-9.1441450641",
+          "zipcode": "1000-112 L",
+          "country_id": 164,
+          "locality_verbose": "Saldanha, Lisboa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Healthy Food, Juices, Italian, Pizza, Bakery, Crepes",
+        "average_cost_for_two": 24,
+        "price_range": 2,
+        "currency": "€",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 1,
+        "mezzo_provider": "ZOMATO_BOOK",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "thumb": "https://b.zmtcdn.com/data/pictures/chains/5/8201625/f39b5cb494a00b0f58b37b34a76b7beb.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.0",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "1670"
+        },
+        "photos_url": "https://www.zomato.com/grande-lisboa/fábrica-dos-sabores-saldanha-lisboa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/grande-lisboa/fábrica-dos-sabores-saldanha-lisboa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/pictures/chains/5/8201625/f39b5cb494a00b0f58b37b34a76b7beb.jpg?output-format=webp",
+        "medio_provider": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/8201625",
+        "is_table_reservation_supported": 1,
+        "has_table_booking": 1,
+        "book_url": "https://www.zomato.com/grande-lisboa/fábrica-dos-sabores-saldanha-lisboa/book?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "events_url": "https://www.zomato.com/grande-lisboa/fábrica-dos-sabores-saldanha-lisboa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 8212807
+        },
+        "apikey": "fdfccb1ed8478759936aaf2ea5718529",
+        "id": "8212807",
+        "name": "Sushisan",
+        "url": "https://www.zomato.com/grande-lisboa/sushisan-saldanha-lisboa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Avenida João Crisóstomo, 38A, Saldanha, Lisboa",
+          "locality": "Saldanha",
+          "city": "Lisboa",
+          "city_id": 82,
+          "latitude": "38.7355767105",
+          "longitude": "-9.1476466879",
+          "zipcode": "",
+          "country_id": 164,
+          "locality_verbose": "Saldanha, Lisboa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Japanese, Sushi",
+        "average_cost_for_two": 45,
+        "price_range": 4,
+        "currency": "€",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/8200967_CHAIN_7bd4d0a609c287800fda58ac5d959bb5.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.1",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "1584"
+        },
+        "photos_url": "https://www.zomato.com/grande-lisboa/sushisan-saldanha-lisboa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/grande-lisboa/sushisan-saldanha-lisboa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/8200967_CHAIN_7bd4d0a609c287800fda58ac5d959bb5.jpg?output-format=webp",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/8212807",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/grande-lisboa/sushisan-saldanha-lisboa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 18413910
+        },
+        "apikey": "fdfccb1ed8478759936aaf2ea5718529",
+        "id": "18413910",
+        "name": "Frankie Hot Dogs",
+        "url": "https://www.zomato.com/grande-lisboa/frankie-hot-dogs-saldanha-lisboa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Rua Alves Redol, 13A, Saldanha, Lisboa",
+          "locality": "Saldanha",
+          "city": "Lisboa",
+          "city_id": 82,
+          "latitude": "38.7368710081",
+          "longitude": "-9.1405344754",
+          "zipcode": "",
+          "country_id": 164,
+          "locality_verbose": "Saldanha, Lisboa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Gourmet Fast Food, Street Food",
+        "average_cost_for_two": 14,
+        "price_range": 2,
+        "currency": "€",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/18413910_RESTAURANT_e58eaf283f76374a2ce891bb7060a4f6.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.3",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "1055"
+        },
+        "photos_url": "https://www.zomato.com/grande-lisboa/frankie-hot-dogs-saldanha-lisboa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/grande-lisboa/frankie-hot-dogs-saldanha-lisboa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/18413910_RESTAURANT_e58eaf283f76374a2ce891bb7060a4f6.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/18413910",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/grande-lisboa/frankie-hot-dogs-saldanha-lisboa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 18463064
+        },
+        "apikey": "fdfccb1ed8478759936aaf2ea5718529",
+        "id": "18463064",
+        "name": "Mezze",
+        "url": "https://www.zomato.com/grande-lisboa/mezze-arroios-lisboa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Mercado de Arroios, Rua Ângela Pinto, 12, Arroios, Lisboa",
+          "locality": "Mercado de Arroios, Arroios",
+          "city": "Lisboa",
+          "city_id": 82,
+          "latitude": "38.7348933307",
+          "longitude": "-9.1325448453",
+          "zipcode": "",
+          "country_id": 164,
+          "locality_verbose": "Mercado de Arroios, Arroios, Lisboa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Middle Eastern",
+        "average_cost_for_two": 35,
+        "price_range": 3,
+        "currency": "€",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/reviews_photos/139/ce5d8e0b52638b5ac5b2996ab48d7139_1535224420.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.4",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "435"
+        },
+        "photos_url": "https://www.zomato.com/grande-lisboa/mezze-arroios-lisboa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/grande-lisboa/mezze-arroios-lisboa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/reviews_photos/139/ce5d8e0b52638b5ac5b2996ab48d7139_1535224420.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/18463064",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/grande-lisboa/mezze-arroios-lisboa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    }
+  ]
+}

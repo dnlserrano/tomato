@@ -12,9 +12,9 @@ defmodule Tomato do
     with {:ok, response} <- @client.get("categories") do
       categories =
         response
-        |> Map.get(:categories)
+        |> Map.get("categories")
         |> Enum.map(fn(category) ->
-          struct(Tomato.Category, category[:categories])
+          Tomato.Category.from(category["categories"])
         end)
 
       {:ok, categories}
@@ -30,9 +30,9 @@ defmodule Tomato do
     with {:ok, response} <- @client.get("cities", query) do
       cities =
         response
-        |> Map.get(:location_suggestions)
+        |> Map.get("location_suggestions")
         |> Enum.map(fn(city) ->
-          struct(Tomato.City, city)
+          Tomato.City.from(city)
         end)
 
       {:ok, cities}
@@ -48,10 +48,9 @@ defmodule Tomato do
     with {:ok, response} <- @client.get("collections", query) do
       collections =
         response
-        |> Map.get(:collections)
+        |> Map.get("collections")
         |> Enum.map(fn(collection) ->
-          struct(Tomato.Collection, collection[:collection])
-          |> struct(id: collection[:collection][:collection_id])
+          Tomato.Collection.from(collection["collection"])
         end)
 
       {:ok, collections}
@@ -67,12 +66,9 @@ defmodule Tomato do
     with {:ok, response} <- @client.get("cuisines", query) do
       cuisines =
         response
-        |> Map.get(:cuisines)
-        |> Enum.map(fn(%{cuisine: cuisine}) ->
-          struct(Tomato.Cuisine, %{
-            id: cuisine[:cuisine_id],
-            name: cuisine[:cuisine_name]
-          })
+        |> Map.get("cuisines")
+        |> Enum.map(fn(%{"cuisine" => cuisine}) ->
+          Tomato.Cuisine.from(cuisine)
         end)
 
       {:ok, cuisines}
@@ -88,9 +84,9 @@ defmodule Tomato do
     with {:ok, response} <- @client.get("establishments", query) do
       establishments =
         response
-        |> Map.get(:establishments)
+        |> Map.get("establishments")
         |> Enum.map(fn(establishment) ->
-          struct(Tomato.Establishment, establishment[:establishment])
+          Tomato.Establishment.from(establishment["establishment"])
         end)
 
       {:ok, establishments}
@@ -120,7 +116,7 @@ defmodule Tomato do
     query = %{res_id: id}
 
     with {:ok, response} <- @client.get("restaurant", query) do
-      restaurant = map_restaurant(response)
+      restaurant = Tomato.Restaurant.from(response)
       {:ok, restaurant}
     else
       error -> error
@@ -134,35 +130,14 @@ defmodule Tomato do
     with {:ok, response} <- @client.get("search", query) do
       restaurants =
         response
-        |> Map.get(:restaurants)
+        |> Map.get("restaurants")
         |> Enum.map(fn(restaurant) ->
-          map_restaurant(restaurant[:restaurant])
+          Tomato.Restaurant.from(restaurant["restaurant"])
         end)
 
       {:ok, restaurants}
     else
       error -> error
     end
-  end
-
-  defp map_restaurant(restaurant_info) do
-    location = map_location(restaurant_info)
-    user_rating = map_user_rating(restaurant_info)
-
-    restaurant = struct(Tomato.Restaurant, restaurant_info)
-    restaurant = %{restaurant |
-      location: location,
-      user_rating: user_rating,
-    }
-
-    restaurant
-  end
-
-  defp map_location(restaurant_info) do
-    struct(Tomato.Location, restaurant_info[:location])
-  end
-
-  defp map_user_rating(restaurant_info) do
-    struct(Tomato.Rating, restaurant_info[:user_rating])
   end
 end
