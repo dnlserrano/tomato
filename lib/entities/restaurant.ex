@@ -58,14 +58,7 @@ defmodule Tomato.Restaurant do
       is_delivering_now: is_delivering_now,
       has_table_booking: has_table_booking,
       deeplink: deeplink,
-      cuisines: map_cuisines(cuisines)
+      cuisines: cuisines
     }
-  end
-
-  defp map_cuisines(cuisines) do
-    cuisines
-    |> Enum.map(fn cuisine ->
-      Tomato.Cuisine.from(cuisine)
-    end)
   end
 end

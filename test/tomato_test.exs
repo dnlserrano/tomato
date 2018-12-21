@@ -64,12 +64,23 @@ defmodule TomatoTest do
 
   describe "geocode/1" do
     test "returns geocode object" do
-      raw_geocode = geocode()
+      {:ok, raw_geocode} = geocode()
       stub(@client, :get, fn "geocode", [lat: 38.7337710000, long: -9.1448500000] ->
-        raw_geocode
+        geocode()
       end)
 
-      assert raw_geocode == @subject.geocode(38.7337710000, -9.1448500000)
+      assert {:ok, raw_geocode} == @subject.geocode(38.7337710000, -9.1448500000)
+    end
+  end
+
+  describe "restaurant/1" do
+    test "returns restaurant object" do
+      stub(@client, :get, fn "restaurant", [res_id: 18714697] ->
+        restaurant()
+      end)
+
+      {:ok, restaurant} = @subject.restaurant(18714697)
+      assert Map.get(restaurant, :name) == "Valdo Gatti"
     end
   end
 
@@ -79,6 +90,7 @@ defmodule TomatoTest do
   defp cuisines(), do: read_json("test/resources/cuisines.json")
   defp establishments(), do: read_json("test/resources/establishments.json")
   defp geocode(), do: read_json("test/resources/geocode.json")
+  defp restaurant(), do: read_json("test/resources/restaurant.json")
 
   defp read_json(path) do
     path
