@@ -65,7 +65,7 @@ defmodule TomatoTest do
   describe "geocode/1" do
     test "returns geocode object" do
       raw_geocode = geocode()
-      stub(@client, :get, fn "geocode", %{lat: 38.7337710000, long: -9.1448500000} ->
+      stub(@client, :get, fn "geocode", [lat: 38.7337710000, long: -9.1448500000] ->
         raw_geocode
       end)
 

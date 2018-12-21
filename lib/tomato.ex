@@ -99,7 +99,7 @@ defmodule Tomato do
   Get location details based on coordinates
   """
   def geocode(lat, long) do
-    query = %{lat: lat, long: long}
+    query = [lat: lat, long: long]
 
     with {:ok, response} <- @client.get("geocode", query) do
       geo_info = response
@@ -113,7 +113,7 @@ defmodule Tomato do
   Get restaurant details
   """
   def restaurant(id) do
-    query = %{res_id: id}
+    query = [res_id: id]
 
     with {:ok, response} <- @client.get("restaurant", query) do
       restaurant = Tomato.Restaurant.from(response)

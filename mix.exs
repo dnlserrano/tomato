@@ -23,7 +23,7 @@ defmodule Tomato.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 1.0.0"},
+      {:httpoison, "~> 1.5.0"},
       {:poison, "~> 3.1.0"},
       {:mox, "~> 0.4", only: :test},
     ]
