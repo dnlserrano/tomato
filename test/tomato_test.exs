@@ -84,6 +84,23 @@ defmodule TomatoTest do
     end
   end
 
+  describe "search/1" do
+    test "returns restaurant objects" do
+      query = [
+        sort: "rating", cuisines: "82", start: 0, count: 5,
+        entity_type: "city",  entity_id: 82
+      ]
+
+      expect(@client, :get, fn "search", ^query -> search() end)
+
+      {:ok, restaurants} = @subject.search(query)
+
+      assert 5 == length(restaurants)
+      assert "Forno d'Oro" == restaurants |> Enum.at(0) |> Map.get(:name)
+      assert "Italy - Lisbona Caffé" == restaurants |> Enum.at(4) |> Map.get(:name)
+    end
+  end
+
   defp categories(), do: read_json("test/resources/categories.json")
   defp cities(), do: read_json("test/resources/cities.json")
   defp collections(), do: read_json("test/resources/collections.json")
@@ -91,6 +108,7 @@ defmodule TomatoTest do
   defp establishments(), do: read_json("test/resources/establishments.json")
   defp geocode(), do: read_json("test/resources/geocode.json")
   defp restaurant(), do: read_json("test/resources/restaurant.json")
+  defp search(), do: read_json("test/resources/search.json")
 
   defp read_json(path) do
     path
