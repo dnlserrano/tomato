@@ -6,6 +6,7 @@ defmodule Tomato.Mixfile do
       app: :tomato,
       version: "0.1.0",
       elixir: "~> 1.5",
+      package: package(),
       start_permanent: Mix.env == :prod,
       elixirc_paths: elixirc_paths(Mix.env),
       deps: deps()
@@ -26,6 +27,14 @@ defmodule Tomato.Mixfile do
       {:httpoison, "~> 1.5.0"},
       {:poison, "~> 3.1.0"},
       {:mox, "~> 0.4", only: :test},
+    ]
+  end
+
+  defp package do
+    [
+      maintainers: ["Daniel Serrano"],
+      licenses: ["MIT"],
+      links: %{github: "https://github.com/dnlserrano/tomato"},
     ]
   end
 end
