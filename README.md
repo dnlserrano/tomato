@@ -22,6 +22,18 @@ Then, update your dependencies:
 $ mix deps.get
 ```
 
+## Configuration
+
+Configure the Zomato API key and URI:
+
+```elixir
+# config/config.exs
+
+config :tomato,
+  zomato_api_key: System.get_env("ZOMATO_API_KEY"),
+  zomato_api_uri: System.get_env("ZOMATO_API_URI")
+```
+
 ## Usage
 
 Usage follows the existing Zomato API endpoints.
