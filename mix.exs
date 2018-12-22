@@ -28,6 +28,7 @@ defmodule Tomato.Mixfile do
       {:httpoison, "~> 1.5.0"},
       {:poison, "~> 3.1.0"},
       {:mox, "~> 0.4", only: :test},
+      {:ex_doc, "~> 0.19", only: :dev},
     ]
   end
 
