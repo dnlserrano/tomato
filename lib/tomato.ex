@@ -99,7 +99,7 @@ defmodule Tomato do
   Get location details based on coordinates
   """
   def geocode(lat, long) do
-    query = [lat: lat, long: long]
+    query = [lat: lat, lon: long]
 
     with {:ok, response} <- @client.get("geocode", query) do
       geo_info = response
