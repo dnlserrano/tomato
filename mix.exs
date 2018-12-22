@@ -6,6 +6,7 @@ defmodule Tomato.Mixfile do
       app: :tomato,
       version: "0.1.0",
       elixir: "~> 1.5",
+      description: description(),
       package: package(),
       start_permanent: Mix.env == :prod,
       elixirc_paths: elixirc_paths(Mix.env),
@@ -28,6 +29,10 @@ defmodule Tomato.Mixfile do
       {:poison, "~> 3.1.0"},
       {:mox, "~> 0.4", only: :test},
     ]
+  end
+
+  defp description do
+    "Elixir wrapper for the Zomato API"
   end
 
   defp package do
