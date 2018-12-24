@@ -2,7 +2,7 @@
 
 ![](logo.png)
 
-Elixir wrapper for the Zomato API
+Elixir wrapper for the Zomato API ([documentation](https://hexdocs.pm/tomato/0.1.1/Tomato.html#summary)).
 
 ## Installation
 
@@ -11,7 +11,7 @@ First, add `tomato` to your mix.exs dependencies:
 ```elixir
 def deps do
   [
-    {:tomato, "~> 0.1.0"}
+    {:tomato, "~> 0.1.1"}
   ]
 end
 ```
