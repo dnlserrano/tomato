@@ -3,7 +3,7 @@ defmodule Tomato do
   Documentation for Tomato.
   """
 
-  @client Application.get_env(:tomato, :client)
+  @client Application.get_env(:tomato, :client) || Tomato.Client
 
   @doc """
   Get list of categories

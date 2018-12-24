@@ -2,7 +2,7 @@ defmodule Tomato.Client do
   @callback get(String.t) :: {:ok, map} | {:error, map}
   @callback get(String.t, list) :: {:ok, map} | {:error, map}
 
-  @http_client Application.get_env(:tomato, :http_client)
+  @http_client Application.get_env(:tomato, :http_client) || HTTPoison
 
   def get(path, parameters \\ []) do
     case @http_client.get(uri(path), headers(), options(parameters)) do
